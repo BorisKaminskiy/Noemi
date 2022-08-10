@@ -70,8 +70,8 @@
           <div class="popup-question">
             <span>Как часто вы заходите на сайт?</span>
             <label>
-              <select name="" id="popup-select" class="popup-select">
-                <option value="Почти каждый день">Почти каждый день</option>
+              <select name="popupselect" id="popup-select" class="popup-select">
+                <option value="">Почти каждый день</option>
                 <option value="">Один раз в неделю</option>
                 <option value="">Один раз в год</option>
               </select>
@@ -88,49 +88,49 @@
           </div>
           <div class="popup-question">
             <span>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-            <textarea class="popup-textarea" name="" id="" rows="6" placeholder="Может, больше рецептов?" ></textarea>
+            <textarea class="popup-textarea" name="poputtextarea" rows="6" placeholder="Может, больше рецептов?" ></textarea>
           </div>
           <button type="submit" class="popup-send-button">ОТПРАВИТЬ</button>
         </form>
       </div>
     </div>
   </div>
-  </div>
+  
   <section class="trend">
     <h2 class="trend-title block-title">Сейчас в тренде</h2>
     <ul class="trend-block-wrapper">
       <li class="trend-card trend-card-1">
         <div class="trend-card-wrapper">
-          <div class="trend-card-header">
-            <a href="" class="trend-card-link gold-link">Lifestyle</a>
-            <a href="" class="trend-card-link gold-link">INTERIOR</a>
-          </div>
+          <ul class="trend-card-header">
+            <li><a href="" class="trend-card-link gold-link">Lifestyle</a></li>
+            <li><a href="" class="trend-card-link gold-link">INTERIOR</a></li>
+          </ul>
           <h2 class="trend-card-description">Сейчас в тренде: сад <br>на подоконнике</h2>
         </div>
       </li>
       <li class="trend-card trend-card-2">
         <div class="trend-card-wrapper">
-          <div class="trend-card-header">
-            <a href="" class="trend-card-link gold-link">Food</a>
-          </div>
+          <ul class="trend-card-header">
+            <li><a href="" class="trend-card-link gold-link">Food</a></li>
+          </ul>
           <h2 class="trend-card-description">сыры на красивых картинках из интернета: какие они на вкус?</h2>
         </div>
       </li>
       <li class="trend-card trend-card-3">
         <div class="trend-card-wrapper">
-          <div class="trend-card-header">
-            <a href="" class="trend-card-link gold-link">Lifestyle</a>
-            <a href="" class="trend-card-link gold-link">tRAVEL</a>
-          </div>
+          <ul class="trend-card-header">
+            <li><a href="" class="trend-card-link gold-link">Lifestyle</a></li>
+            <li><a href="" class="trend-card-link gold-link">tRAVEL</a></li>
+          </ul>
           <h2 class="trend-card-description">СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ</h2>
         </div>
       </li>
       <li class="trend-card trend-card-4">
         <div class="trend-card-wrapper">
-          <div class="trend-card-header">
-            <a href="" class="trend-card-link gold-link">food</a>
-            <a href="" class="trend-card-link gold-link">health</a>
-          </div>
+          <ul class="trend-card-header">
+            <li><a href="" class="trend-card-link gold-link">food</a></li>
+            <li><a href="" class="trend-card-link gold-link">health</a></li>
+          </ul>
           <h2 class="trend-card-description">Сейчас в тренде: сКОЛЬКО ВИТАМИНА c В лимонах?</h2>
         </div>
       </li>
@@ -140,19 +140,19 @@
     <ul class="news-items">
       <li class="news-item news-item-1">
         <picture class="news-item-image">
-          <source srcset="./sources/img/last-post1.jpg" , media="(max-width: 640px)">
+          <source srcset="./sources/img/last-post1.jpg" media="(max-width: 640px)">
           <img src="./sources/img/last-post1.jpg" alt="news-img">
         </picture>
         <div class="news-item-body">
-          <div class="item-header">
-            <a href="#0" class="item-header-link">Travel</a>
-            <a href="#0" class="item-header-link">Health</a>
-          </div>
+          <ul class="item-header">
+            <li><a href="#0" class="item-header-link">Travel</a></li>
+            <li><a href="#0" class="item-header-link">Health</a></li>
+          </ul>
           <a href="#0">
             <h2 class="item-title">10 мест, ради которых стоит проснуться на рассвете</h2>
           </a>
           <div class="item-aside">
-            <time class="news-date">10 июня 2019</time>
+            <time datetime="2019-06-10" class="news-date">10 июня 2019</time>
             <a href="#0" rel="author" class="item-aside-author">Неизвестный автор</a>
           </div>
           <p class="item-paragraph">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны
@@ -161,19 +161,19 @@
       </li>
       <li class="news-item news-item-2">
         <picture class="news-item-image">
-          <source srcset="./sources/img/last-post2.jpg" , media="(max-width: 640px)">
+          <source srcset="./sources/img/last-post2.jpg" media="(max-width: 640px)">
           <img src="./sources/img/last-post2.jpg" alt="news-img">
         </picture>
         <div class="news-item-body news-body-2">
-          <div class="item-header">
-            <a href="#0" class="item-header-link">health</a>
-            <a href="#0" class="item-header-link">lifestyle</a>
-          </div>
+          <ul class="item-header">
+            <li><a href="#0" class="item-header-link">health</a></li>
+            <li><a href="#0" class="item-header-link">lifestyle</a></li>
+          </ul>
           <a href="#0">
             <h2 class="item-title">ЙОга для начинающих в домашних условиях</h2>
           </a>
           <div class="item-aside">
-            <time class="news-date">10 июня 2019</time>
+            <time datetime="2019-06-10" class="news-date">10 июня 2019</time>
             <a href="#0" rel="author" class="item-aside-author">Неизвестный автор</a>
           </div>
           <p class="item-paragraph">Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из
@@ -182,18 +182,18 @@
       </li>
       <li class="news-item news-item-3">
         <picture class="news-item-image">
-          <source srcset="./sources/img/last-post3.jpg" , media="(max-width: 640px)">
+          <source srcset="./sources/img/last-post3.jpg" media="(max-width: 640px)">
           <img src="./sources/img/last-post3.jpg" alt="news-img">
         </picture>
         <div class="news-item-body">
-          <div class="item-header">
-            <a href="#0" class="item-header-link">music</a>
-          </div>
+          <ul class="item-header">
+            <li><a href="#0" class="item-header-link">music</a></li>
+          </ul>
           <a href="#0">
             <h2 class="item-title">Лучшие музыкальные фестивали этого лета</h2>
           </a>
           <div class="item-aside">
-            <time class="news-date">10 июня 2019</time>
+            <time datetime="2019-06-10" class="news-date">10 июня 2019</time>
             <a href="#0" rel="author" class="item-aside-author">Неизвестный автор</a>
           </div>
           <p class="item-paragraph">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте
@@ -204,19 +204,19 @@
       </li>
       <li class="news-item news-item-4">
         <picture class="news-item-image">
-          <source srcset="./sources/img/last-post4.jpg" , media="(max-width: 640px)">
+          <source srcset="./sources/img/last-post4.jpg" media="(max-width: 640px)">
           <img src="./sources/img/last-post4.jpg" alt="news-img">
         </picture>
         <div class="news-item-body">
-          <div class="item-header">
-            <a href="#0" class="item-header-link">LYFESTYLE</a>
-            <a href="#0" class="item-header-link">FOOD</a>
-          </div>
+          <ul class="item-header">
+            <li><a href="#0" class="item-header-link">LYFESTYLE</a></li>
+            <li><a href="#0" class="item-header-link">FOOD</a></li>
+          </ul>
           <a href="#0">
             <h2 class="item-title">Наукоёмкий подход к кулинарии</h2>
           </a>
           <div class="item-aside">
-            <time class="news-date">10 июня 2019</time>
+            <time datetime="2019-06-10" class="news-date">10 июня 2019</time>
             <a href="#0" rel="author" class="item-aside-author">Неизвестный автор</a>
           </div>
           <p class="item-paragraph">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику,
@@ -225,20 +225,20 @@
       </li>
       <li class="news-item news-item-5">
         <picture class="news-item-image">
-          <source srcset="./sources/img/last-post5.jpg" , media="(max-width: 640px)">
+          <source srcset="./sources/img/last-post5.jpg" media="(max-width: 640px)">
           <img src="./sources/img/last-post5.jpg" alt="news-img">
         </picture>
         <div class="news-item-body">
-          <div class="item-header">
-            <a href="#0" class="item-header-link gold-link">Lifestyle</a>
-            <a href="#0" class="item-header-link gold-link">INTERIOR</a>
-            <a href="#0" class="item-header-link gold-link">art</a>
-          </div>
+          <ul class="item-header">
+            <li><a href="#0" class="item-header-link gold-link">Lifestyle</a></li>
+            <li><a href="#0" class="item-header-link gold-link">INTERIOR</a></li>
+            <li><a href="#0" class="item-header-link gold-link">art</a></li>
+          </ul>
           <a href="#0">
             <h2 class="item-title">делаем модные принты на подушках для интерьера </h2>
           </a>
           <div class="item-aside">
-            <time class="news-date">10 июня 2019</time>
+            <time datetime="2019-06-10" class="news-date">10 июня 2019</time>
             <a href="#0" rel="author" class="item-aside-author">Неизвестный автор</a>
           </div>
           <p class="item-paragraph">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если
@@ -246,17 +246,17 @@
         </div>
       </li>
     </ul>
-    <sidebar class="sidebar">
+    <div class="sidebar">
       <section class="sidebar-newposts">
         <h2 class="sidebar-newposts-title block-title">Новые посты</h2>
         <div class="sidebar-newposts-items">
           <div class="sidebar-newposts-item">
             <picture class="sidebar-item-image">
-              <source srcset="./sources/img/2.jpg" , media="(max-width: 640px)">
+              <source srcset="./sources/img/2.jpg" media="(max-width: 640px)">
               <img src="./sources/img/2.jpg" alt="sidebar-img">
             </picture>
             <div class="newposts-item-body">
-              <time class="item-date new-post-date">14 июня 2019</time>
+              <time datetime="2019-06-14" class="item-date new-post-date">14 июня 2019</time>
               <a href="#0">
                 <h3 class="newposts-item-title">10 мест, ради которых стоит проснуться</h3>
               </a>
@@ -264,11 +264,11 @@
           </div>
           <div class="sidebar-newposts-item">
             <picture class="sidebar-item-image">
-              <source srcset="./sources/img/151.jpg" , media="(max-width: 640px)">
+              <source srcset="./sources/img/151.jpg" media="(max-width: 640px)">
               <img src="./sources/img/151.jpg" alt="sidebar-img">
             </picture>
             <div class="newposts-item-body">
-              <time class="item-date new-post-date">14 июня 2019</time>
+              <time datetime="2019-06-14" class="item-date new-post-date">14 июня 2019</time>
               <a href="#0">
                 <h3 class="newposts-item-title">Йога для домашних</h3>
               </a>
@@ -276,11 +276,11 @@
           </div>
           <div class="sidebar-newposts-item">
             <picture class="sidebar-item-image">
-              <source srcset="./sources/img/45.jpg" , media="(max-width: 640px)">
+              <source srcset="./sources/img/45.jpg" media="(max-width: 640px)">
               <img src="./sources/img/45.jpg" alt="sidebar-img">
             </picture>
             <div class="newposts-item-body">
-              <time class="item-date new-post-date">14 июня 2019</time>
+              <time datetime="2019-06-14" class="item-date new-post-date">14 июня 2019</time>
               <a href="#0">
                 <h3 class="newposts-item-title">как мы превратили классное место в балкон</h3>
               </a>
@@ -288,11 +288,11 @@
           </div>
           <div class="sidebar-newposts-item">
             <picture class="sidebar-item-image">
-              <source srcset="./sources/img/501.jpg" , media="(max-width: 640px)">
+              <source srcset="./sources/img/501.jpg" media="(max-width: 640px)">
               <img src="./sources/img/501.jpg" alt="sidebar-img">
             </picture>
             <div class="newposts-item-body">
-              <time class="item-date new-post-date">14 июня 2019</time>
+              <time datetime="2019-06-14" class="item-date new-post-date">14 июня 2019</time>
               <a href="#0">
                 <h3 class="newposts-item-title">Кулинарный подход к науке</h3>
               </a>
@@ -300,11 +300,11 @@
           </div>
           <div class="sidebar-newposts-item">
             <picture class="sidebar-item-image">
-              <source srcset="./sources/img/7.jpg" , media="(max-width: 640px)">
+              <source srcset="./sources/img/7.jpg" media="(max-width: 640px)">
               <img src="./sources/img/7.jpg" alt="sidebar-img">
             </picture>
             <div class="newposts-item-body">
-              <time class="item-date new-post-date">14 июня 2019</time>
+              <time datetime="2019-06-14" class="item-date new-post-date">14 июня 2019</time>
               <a href="#0">
                 <h3 class="newposts-item-title">лучшие прически для распущенных волос</h3>
               </a>
@@ -370,23 +370,23 @@
           </li>
         </ul>
       </section>
-    </sidebar>
+    </div>
   </section>
   <section class="our-products wrapper">
     <h3 class="our-products-title block-title">наши изделия</h3>
     <ul class="our-products-items">
       <li class="product-item">
         <picture class="product-image">
-          <source srcset="./sources/img/shop-item-mobile1.jpg" , media="(max-width: 640px)">
-          <source srcset="./sources/img/shop-item-tablet1.jpg" , media="(max-width: 1199px)">
-          <source srcset="./sources/img/shop-item-desk1.jpg" , media="(min-width: 1200px)">
+          <source srcset="./sources/img/shop-item-mobile1.jpg" media="(max-width: 640px)">
+          <source srcset="./sources/img/shop-item-tablet1.jpg" media="(max-width: 1199px)">
+          <source srcset="./sources/img/shop-item-desk1.jpg" media="(min-width: 1200px)">
           <img src="./sources/img/shop-item-mobile1.jpg" alt="product-img">
         </picture>
         <div class="product-description">
           <p class="product-title">Подушки на диван</p>
           <p class="product-info">Набор из двух подушек с модными принтами. Видео о создании <a href=""
               class="product-info-link">здесь</a></p>
-          <form action="" class="product-form">
+          <form  class="product-form">
             <div class="product-price">
               <div class="product-old-price">1000 ₽</div>
               <div class="product-new-price">800 ₽</div>
@@ -397,16 +397,16 @@
       </li>
       <li class="product-item">
         <picture class="product-image">
-          <source srcset="./sources/img/shop-item-mobile2.jpg" , media="(max-width: 640px)">
-          <source srcset="./sources/img/shop-item-tablet2.jpg" , media="(max-width: 1199px)">
-          <source srcset="./sources/img/shop-item-desk2.jpg" , media="(min-width: 1200px)">
+          <source srcset="./sources/img/shop-item-mobile2.jpg" media="(max-width: 640px)">
+          <source srcset="./sources/img/shop-item-tablet2.jpg" media="(max-width: 1199px)">
+          <source srcset="./sources/img/shop-item-desk2.jpg" media="(min-width: 1200px)">
           <img src="./sources/img/shop-item-mobile2.jpg" alt="product-img">
         </picture>
         <div class="product-description">
           <p class="product-title">Кукла «Зайчик»</p>
           <p class="product-info">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href=""
               class="product-info-link">весенняя серия постов</a> в блоге и несколько подкастов.</p>
-          <form action="" class="product-form">
+          <form  class="product-form">
             <div class="product-price">
               <div class="product-old-price"></div>
               <div class="product-new-price">3500 ₽</div>
@@ -417,16 +417,16 @@
       </li>
       <li class="product-item">
         <picture class="product-image">
-          <source srcset="./sources/img/shop-item-mobile3.jpg" , media="(max-width: 640px)">
-          <source srcset="./sources/img/shop-item-tablet3.jpg" , media="(max-width: 1199px)">
-          <source srcset="./sources/img/shop-item-desk3.jpg" , media="(min-width: 1200px)">
+          <source srcset="./sources/img/shop-item-mobile3.jpg" media="(max-width: 640px)">
+          <source srcset="./sources/img/shop-item-tablet3.jpg" media="(max-width: 1199px)">
+          <source srcset="./sources/img/shop-item-desk3.jpg" media="(min-width: 1200px)">
           <img src="./sources/img/shop-item-mobile3.jpg" alt="product-img">
         </picture>
         <div class="product-description">
           <p class="product-title">Шестиугольная рамка</p>
           <p class="product-info">Необычная рамка для украшения дома из видео <a href="" class="product-info-link">"Как
               сделать рамку из подручных средств за 30 минут"</a></p>
-          <form action="" class="product-form">
+          <form  class="product-form">
             <div class="product-price">
               <div class="product-old-price">500 ₽</div>
               <div class="product-new-price">400 ₽</div>
