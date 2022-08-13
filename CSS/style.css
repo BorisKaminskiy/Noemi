@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 button {
   border: none;
   background: none;
@@ -207,7 +211,7 @@ textarea {
 }
 
 .header-navigation-item:hover {
-  color: #b59f5b;
+  text-decoration: underline;
 }
 
 .main {
@@ -527,13 +531,24 @@ textarea {
 }
 
 .trend-card-header {
+  cursor: pointer;
   display: flex;
   flex-wrap: wrap;
   column-gap: 1.5rem;
 }
 
+.trend-card-link:hover {
+  text-decoration: underline;
+}
+
 .trend-card-description {
+  cursor: pointer;
   line-height: 2.4rem;
+  color: rgba(255, 255, 255, 0.831372549);
+}
+
+.trend-card-description:hover {
+  font-weight: 500;
   color: #FFFFFF;
 }
 
@@ -639,6 +654,7 @@ textarea {
 .news-item-image {
   max-width: 38.1rem;
   width: 100%;
+  cursor: pointer;
 }
 .news-item-image img {
   object-fit: cover;
@@ -658,6 +674,10 @@ textarea {
   font-weight: 700;
   text-transform: uppercase;
   color: #b59f5b;
+}
+
+.item-header-link:hover {
+  text-decoration: underline;
 }
 
 .item-title {
@@ -967,8 +987,9 @@ textarea {
 .sidebar-newposts-search:focus {
   border: none;
   outline: none;
-  background-color: #ece8db;
+  background-color: #f3f1ed;
   transition: all 0.5s ease;
+  padding-left: 1.5rem;
 }
 
 .sidebar-newposts-search-button {
@@ -979,11 +1000,16 @@ textarea {
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #b59f5b;
+  border: 2px solid transparent;
 }
 
 .sidebar-newposts-search-button:hover {
-  background-color: #b28e21;
+  background-color: #c1ab68;
   transition: all 0.3s ease;
+}
+
+.sidebar-newposts-search-button:active {
+  border: 2px solid #d1b561;
 }
 
 .sidebar-mail {
@@ -1021,7 +1047,8 @@ textarea {
 .sidebar-mailing-input:focus {
   border: none;
   outline: none;
-  background-color: #ece8db;
+  background-color: #f3f1ed;
+  padding-left: 1.5rem;
   transition: all 0.5s ease;
 }
 
@@ -1035,12 +1062,17 @@ textarea {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #b59f5b;
+  border: 2px solid transparent;
   cursor: pointer;
 }
 
 .sidebar-mailing-buton:hover {
-  background-color: #b28e21;
+  background-color: #c1ab68;
   transition: all 0.3s ease;
+}
+
+.sidebar-mailing-buton:active {
+  border: 2px solid #d1b561;
 }
 
 .sidebar-tags-block {
@@ -1067,7 +1099,8 @@ textarea {
 }
 
 .sidebar-tags-tag:hover {
-  border: 3px solid #c6ae66;
+  font-size: 1.3rem;
+  padding: 0 1.1rem;
   transition: all 0.7s ease;
 }
 
@@ -1092,11 +1125,11 @@ textarea {
 .theme-item {
   font-family: "OpenSans-Bold";
   font-size: 1.4rem;
-  color: black;
+  color: rgb(53, 51, 51);
 }
 
 .theme-item:hover {
-  color: #c6ae66;
+  color: black;
   transition: all 0.3s ease;
 }
 
@@ -1176,6 +1209,7 @@ textarea {
 .product-image {
   width: 100%;
   padding: 0 2.4rem;
+  cursor: pointer;
 }
 .product-image img {
   object-fit: cover;
@@ -1212,6 +1246,12 @@ textarea {
   line-height: 2.2rem;
   font-weight: 400;
   color: #0f0d0e;
+  cursor: pointer;
+}
+
+.product-info:hover {
+  font-weight: 600;
+  color: black;
 }
 
 .product-info-link {
@@ -1251,6 +1291,7 @@ textarea {
 }
 
 .product-button {
+  cursor: pointer;
   width: 14rem;
   height: 5rem;
   background-color: #b59f5b;
@@ -1261,6 +1302,16 @@ textarea {
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
+  border: 2px solid transparent;
+}
+
+.product-button:hover {
+  background-color: #c1ab68;
+  transition: all 0.3s ease;
+}
+
+.product-button:active {
+  border: 2px solid #d1b561;
 }
 
 @media (max-width: 1199px) {
