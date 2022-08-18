@@ -104,10 +104,6 @@ textarea {
   transition: color 0.5s ease;
 }
 
-.gold-link:hover {
-  color: #b59126;
-}
-
 .item-date {
   font-family: "OpenSans-Regular";
   font-size: 1.2rem;
@@ -549,7 +545,7 @@ textarea {
 
 .trend-card-description:hover {
   font-weight: 500;
-  color: #FFFFFF;
+  color: #b59f5b;
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
@@ -687,10 +683,6 @@ textarea {
   font-weight: 700;
   text-transform: uppercase;
   color: #0f0d0e;
-}
-
-.item-title:hover {
-  color: #473333;
 }
 
 .item-aside {
@@ -985,9 +977,8 @@ textarea {
 }
 
 .sidebar-newposts-search:focus {
-  border: none;
   outline: none;
-  background-color: #f3f1ed;
+  border: 1px solid #b59f5b;
   transition: all 0.5s ease;
   padding-left: 1.5rem;
 }
@@ -1004,12 +995,12 @@ textarea {
 }
 
 .sidebar-newposts-search-button:hover {
-  background-color: #c1ab68;
-  transition: all 0.3s ease;
+  background-color: #323232;
+  transition: all 0.5s ease;
 }
 
 .sidebar-newposts-search-button:active {
-  border: 2px solid #d1b561;
+  border: 3px solid #ccc370;
 }
 
 .sidebar-mail {
@@ -1045,9 +1036,8 @@ textarea {
 }
 
 .sidebar-mailing-input:focus {
-  border: none;
+  border: 1px solid #b59f5b;
   outline: none;
-  background-color: #f3f1ed;
   padding-left: 1.5rem;
   transition: all 0.5s ease;
 }
@@ -1062,17 +1052,17 @@ textarea {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #b59f5b;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   cursor: pointer;
 }
 
 .sidebar-mailing-buton:hover {
-  background-color: #c1ab68;
+  background-color: #323232;
   transition: all 0.3s ease;
 }
 
 .sidebar-mailing-buton:active {
-  border: 2px solid #d1b561;
+  border: 3px solid #b59f5b;
 }
 
 .sidebar-tags-block {
@@ -1091,7 +1081,7 @@ textarea {
   justify-content: center;
   height: 3rem;
   padding: 0 1.3rem;
-  border: 0.3rem solid #ededed;
+  border: 3px solid #ededed;
   font-family: "OpenSans-Bold";
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -1099,9 +1089,8 @@ textarea {
 }
 
 .sidebar-tags-tag:hover {
-  font-size: 1.3rem;
-  padding: 0 1.1rem;
-  transition: all 0.7s ease;
+  border: 3px solid #b59f5b;
+  transition: all 0.5s ease;
 }
 
 .sidebar-themes {
@@ -1129,8 +1118,8 @@ textarea {
 }
 
 .theme-item:hover {
-  color: black;
-  transition: all 0.3s ease;
+  color: #b59f5b;
+  transition: all 0.5s ease;
 }
 
 .theme-count {
@@ -1306,12 +1295,12 @@ textarea {
 }
 
 .product-button:hover {
-  background-color: #c1ab68;
+  background-color: #323232;
   transition: all 0.3s ease;
 }
 
 .product-button:active {
-  border: 2px solid #d1b561;
+  border: 3px solid #ccc370;
 }
 
 @media (max-width: 1199px) {
