@@ -312,21 +312,24 @@
           </div>
         </div>
         <form action="#" class="sidebar-newposts-form">
-          <input type="search" id="search-line" placeholder="Найти..." class="sidebar-newposts-search"
+          <label for="search-line">
+            <input type="search" id="search-line" placeholder="Найти..." class="sidebar-newposts-search"
             title="Строка поиска">
-          <label for="search-line" class="visually-hidden"></label>
-          <input type="submit" value="" id="search-button" class="sidebar-newposts-search-button">
-          <label for="search-button" class="visually-hidden"></label>
+            <span class="visibility-hidden">Поле ввода поискового запроса</span>
+          </label>
+          <button type="button"  id="search-button" class="sidebar-newposts-search-button">
+          
         </form>
       </section>
       <section class="sidebar-mail">
         <h3 class="sidebar-mail-title block-title">Рассылка</h3>
         <form action="#" class="sidebar-mailing">
-          <input type="email" name="email" id="email" class="sidebar-mailing-input" placeholder="Ваш email-адрес">
-          <label for="email" class="visually-hidden"></label>
-          <input type="submit" value="Подписаться" id="sidebar-mailing-buton" class="sidebar-mailing-buton">
-          <label for="sidebar-mailing-buton" class="visually-hidden"></label>
-        </form>
+          <label for="email"> 
+            <input type="email" name="email" id="email" class="sidebar-mailing-input" placeholder="Ваш email-адрес"> 
+            <span class="visibility-hidden">Поле ввода e-mail</span>
+          </label>
+          <button type="button" value="Подписаться" id="sidebar-mailing-buton" class="sidebar-mailing-buton">Подписаться</button>
+         </form>
       </section>
       <section class="sidebar-tags">
         <h3 class="sidebar-tags-title block-title">Теги</h3>
@@ -391,7 +394,7 @@
               <div class="product-old-price">1000 ₽</div>
               <div class="product-new-price">800 ₽</div>
             </div>
-            <button class="product-button">в магазин</button>
+            <button class="product-button" type="button">в магазин</button>
           </form>
         </div>
       </li>
@@ -411,7 +414,7 @@
               <div class="product-old-price"></div>
               <div class="product-new-price">3500 ₽</div>
             </div>
-            <button class="product-button">в магазин</button>
+            <button class="product-button" type="button">в магазин</button>
           </form>
         </div>
       </li>
@@ -431,7 +434,7 @@
               <div class="product-old-price">500 ₽</div>
               <div class="product-new-price">400 ₽</div>
             </div>
-            <button class="product-button">в магазин</button>
+            <button class="product-button" type="button">в магазин</button>
           </form>
         </div>
       </li>
